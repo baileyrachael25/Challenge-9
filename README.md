@@ -3,9 +3,9 @@
 ## Description
 
 ## Table of Contents
--[Installation] (#install)
--[Usage] (#usage)
--[Questions] (#questions)
+- [Installation](#install)
+- [Usage](#usage)
+- [License](#license)
 
 ##Installation
 
