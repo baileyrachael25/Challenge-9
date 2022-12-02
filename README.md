@@ -4,11 +4,15 @@
 
 ## Table of Contents
 - [Installation](#install)
+- [Video Demo](#demo)
 - [Usage](#usage)
-- [Questions](#Questions)
+- [Questions](#questions)
 
-##Installation
 
-##Usage
+## Installation
 
-##Questions
+## Video Demo
+
+## Usage
+
+## Questions
