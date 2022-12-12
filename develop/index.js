@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const genRead = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -13,11 +14,6 @@ const questions = [
         message: 'Enter a description of your project.',
         type: 'input',
         name: 'description',
-    },
-    {
-        message: 'Enter the table of contents for this project.',
-        type: 'input',
-        name: 'table',
     },
     {
         message: 'Enter the installation instructions for this project.',
@@ -48,7 +44,7 @@ const questions = [
     {
         message: 'Enter the email address you would like to contacted at for questions regarding this project.',
         type: 'input',
-        name: 'contact',
+        name: 'email',
     },
     {
         message: 'Enter your GitHub username.',
@@ -59,9 +55,10 @@ const questions = [
 
     inquirer.prompt(questions)
     .then(answers => {
-        console.log(answers)
-    })
-    .catch(err => console.log(err))
+        const newFile = genRead(answers)
+        fs.writeFile('', newFile, err =>
+            err ? console.log(err): console.log("Success!")
+        )});
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
