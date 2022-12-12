@@ -1,5 +1,5 @@
 
-  # Title.
+  # This my title.
   
   ## Description:
   Description.
@@ -28,6 +28,6 @@
   Test.
 
   ## Questions:
-  Any questions about this code? Feel free to contact me on [Github] at (https://github.com/Github User.)
+  Any questions about this code? Feel free to contact me on [Github] at (https://github.com/Username)
   or contact me via email at email@email.com
   
